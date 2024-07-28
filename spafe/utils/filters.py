@@ -2,7 +2,7 @@
 import numpy as np
 from scipy import signal
 from scipy.ndimage import sobel
-from scipy.signal import gaussian
+from scipy.signal.windows import gaussian
 
 
 def gaussian_filter(M, std, sym=True):
